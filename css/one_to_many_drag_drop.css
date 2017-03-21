@@ -1,0 +1,53 @@
+#drag_object {
+
+    margin: 32px;
+    border: 2px solid black;
+    width: 14.8%;
+    height: 129px;
+    float:left;
+
+	}
+	#drag_object1{
+    margin: 32px;
+    border: 2px solid black;
+    width: 14.8%;
+    height: 132px;
+    float:left;
+}
+#drag_object2{
+    margin: 32px;
+    border: 2px solid black;
+    width: 14.8%;
+    height: 131px;
+    float:left;
+}
+#div1{
+      border: 2px solid #9E9E9E;
+      width: 200px;
+      height: 130px;
+      position: absolute;
+      top: 53%;
+      left: 10%;
+
+}
+#div2{
+      border: 2px solid #9E9E9E;
+      width: 200px;
+      height: 132px;
+      position: absolute;
+      top: 53%;
+      left: 30%;
+}
+#div3{
+      border: 2px solid #9E9E9E;
+      width: 200px;
+      height: 132px;
+      position: absolute;
+      top: 53%;
+      left: 50%;
+}
+
+.button{
+  position: absolute;
+  bottom: 5px;
+}

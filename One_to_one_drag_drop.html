@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drag And Drop</title>
+    <script src="js/drag_drop_one_to_one.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/one_to_one_drag_drop.css"/>
+  </head>
+  <body>
+      <h2> Drag and Drop application</h2>
+      <h3> One to One Drag and Drop</h3>
+      <div class="drag_object">
+        <img id="drag1" src="img/landscape.jpg" draggable="true" ondragstart="drag(event)"  width="200px" answer="1"/>
+      </div>
+      <div class="drag_object1">
+        <img id="drag2" src="img/mountain1.jpg" draggable="true" ondragstart="drag(event)" width="200px" height="133px" answer="2"/>
+      </div>
+      <div class="drag_object2">
+        <img id="drag3" src="img/forest.jpg" draggable="true" ondragstart="drag(event)"width="200px"  height="133px" answer="3" />
+      </div>
+      <div id="div1" ondrop="drop(event)" ondragover="allowdrop(event)" ondragleave="dragLeave(event)" correct_answer="1" ></div>
+      <div id="div2" ondrop="drop(event)" ondragover="allowdrop(event)" ondragleave="dragLeave(event)" correct_answer="2"></div>
+      <div id="div3" ondrop="drop(event)" ondragover="allowdrop(event)" ondragleave="dragLeave(event)" correct_answer="3"></div>
+      <div class="button">
+        <button onclick="goBack()">Back</button>
+        <button id="chkBtn" onclick="check()">Check</button>
+        <button id="reseButton" onclick="resetPage()">Reset</button>
+      </div>
+  </body>
+</html>
